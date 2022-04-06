@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume-logo{
+
+    height: 110px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.list{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 40px;
+  
+    
+}
+
+.list li{
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 40px;
+  
+}
+.list li a{
+     text-decoration: none;
+     font-size: 26px;
+     font-family: sans-serif;
+     color: black;
+     /* transform: scale(1, 1.5); */
+    
+}
+
+.section-center{
+    display: block;
+    justify-content: center;
+
+}
+
+.container{
+    display: block;
+    justify-content: center;
+}
+
+.head{
+    font-size: 60px;
+    margin-top: 180px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.para{
+    font-size: 20px;
+     margin: auto;
+    max-width: 990px;
+    text-align: center;
+    font-family: "Muli",sans-serif;
+    line-height: 40px;
+}
+
+.btn{
+  
+    border: none;
+    background-color: #0091ff;
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    margin-left: 350px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 72px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.logo-image{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  
+}
+.logo-image img{
+    height: 500px;
+    margin-top: 100px;
+    
+}
+
+.content{
+    height: 100vh;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+.description{
+    display: block;
+    margin-top: 40px;
+    margin-left: 60px;
+
+}
+.container2{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 130px;
+}
+
+.interview{
+    height: 400px;
+    margin-right: 90px;
+}
+.description h3{
+ font-size: 30px;
+ font-family: sans-serif;
+
+}
+
+.description p{
+    font-size: 23px;
+    width: 700px;
+    margin-top: 20px;
+}
+.list-item{
+    margin-bottom: 40px;
+}
+
+.resume{
+    height: 100vh;
+
+}
+.resume h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.resume p{
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container3{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    
+}
+
+.con1{
+    height: 450px;
+    width: 300px;
+    border: 5px solid rgb(253, 73, 73);
+    position: relative;
+}
+.container3 p{
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.container3 a{
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    font-weight: 600;
+ 
+    
+}
+
+/* .con2 a{
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    font-weight: 600;
+} */
+
+.con2{
+    height: 450px;
+    width: 300px;
+    border: 5px solid rgb(15, 71, 224);
+    color: rgb(253, 73, 73);
+    position: relative;
+}
+
+.con3{
+    height: 450px;
+    width: 300px;
+    border: 5px solid rgb(37, 190, 250);
+    position: relative;
+}
+
+.con4{
+    height: 450px;
+    width: 300px;
+    border: 5px solid rgb(187, 29, 250);   
+    position: relative;
+}
+
+.con1:hover{
+    background-color: rgb(255, 82, 82);
+    color: white;
+    
+    
+}
+
+.con2:hover{
+    background-color:rgb(15, 71, 224) ;
+}
+
+.con3:hover{
+    background-color: rgb(37, 190, 250);
+}
+
+.con4:hover{
+    background-color: rgb(187, 29, 250);
+}
+
+.con1 a:hover{
+    color: white;
+}
